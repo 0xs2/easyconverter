@@ -1,0 +1,184 @@
+body {
+    background-color: rgb(17, 17, 17);
+    color: rgb(219, 219, 219);
+    font-family:monospace
+}
+
+#artlist ul > a {
+    color: rgb(58, 146, 58);
+}
+
+#artlist ul > a:hover,a:active {
+    color: rgb(62, 173, 62);
+}
+
+.breadcrumb-item {
+    padding: none;
+}
+
+a {
+    color: #00c377;
+}
+
+.dropdown-toggle.active-dropdown::after {
+    transform: rotate(-90deg);
+}
+
+.copybtn {
+    display: none;
+}
+
+a:hover,a:active {
+    color: #00995e;
+}
+
+
+.bg-dark,.table-dark {
+    background-color: #131313 !important;
+} 
+
+.alert-dark {
+    background-color: #131313 !important; 
+    border: #393939 1px solid !important; 
+    color: rgba(255,255,255,.75);
+    text-align: left;
+}
+
+#artlist li {
+	padding: 5px;
+}
+.table-dark td, .table-dark th, .table-dark thead th {
+    border: #393939 1px solid !important; 
+}
+
+.form-control, .table-dark {
+    border: #393939 1px solid !important; 
+    color: rgba(255,255,255,.75);
+}
+
+
+.btn-dark {
+    background-color: #131313 !important; 
+    border: #393939 1px solid !important; 
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 25px;
+    min-width: 400px;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #c7c7c7;
+}
+
+
+.card {
+    border: #393939 1px solid;
+    background-color: #1e1e1e    ;
+}
+.card-header {
+    background-color: #131313    ;
+    text-decoration:wavy;
+}
+
+h2 a {
+    text-decoration: none;
+}
+
+ul li a {
+    color: #959595;
+    text-decoration: none;
+}
+
+
+ul li a:hover, ul li a:active {
+    color: #515151;
+    text-decoration: none;
+}
+
+code,pre {
+    color: rgb(156, 156, 156);
+    padding: 10px;
+    background-color: #131313;
+}
+
+hr {
+    border: solid 1px #393939;
+}
+
+.form-control {
+    background-color: #131313;
+    border-color: #131313;
+    color: rgb(156, 156, 156);
+}
+
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+.navbar-dark {
+background-color: #111 !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #111111    !important;
+    color: rgb(156, 156, 156);
+}
+
+.dropdown-item, .dropdown-item:active {
+    background-color: #131313 !important;
+    color: rgb(144, 144, 144);
+}
+
+.dropdown-menu {
+    background-color: #131313    !important; 
+    border: #393939 1px solid;
+    text-align: center;
+}
+
+footer {
+    padding: 50px;
+}
+
+@media (min-width: 55em) {
+#artlist { column-count: 2 ;}
+}
+
+@media (min-width: 100em) {
+#artlist { column-count: 3 ;}
+}
+
+.list-group-item {
+    background-color: #131313    !important;
+
+}
+
+.convert {
+    display: none;
+}
+
+.encode {
+    display: none;
+}
+
+.decode {
+    display: none;
+}
+
+
+.string {
+    display: none;
+
+}
+
+
+.list {
+    display: none;
+}
+.number {
+    display: none;
+}
