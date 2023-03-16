@@ -178,40 +178,27 @@ $("#l").on("submit", function(event){
 })
 
 
-$('.copybtn').tooltip({
-    trigger: 'click',
-    placement: 'bottom'
-  });
-
-  $('.copybtn2').tooltip({
+  $('.copybtn').tooltip({
     trigger: 'click',
     placement: 'bottom'
   });
 
 
-  function setTooltip(message, btn) {
+  function setTooltip(btn, message) {
     $(btn).tooltip('hide')
       .attr('data-original-title', message)
       .tooltip('show');
   }
 
   function hideTooltip(btn) {
-    setTimeout(function() {
+    setTimeout(function () {
       $(btn).tooltip('hide');
     }, 1000);
   }
 
-
 var clipboard = new ClipboardJS('.copybtn');
 
-clipboard.on('success', function(e) {
-    setTooltip('Copied!', '.copybtn');
-    hideTooltip(e.trigger, '.copybtn');
-});
-
-var clipboard2 = new ClipboardJS('.copybtn2');
-
-clipboard2.on('success', function(e2) {
-    setTooltip('Copied!', '.copybtn2');
-    hideTooltip(e2.trigger, '.copybtn2');
+clipboard.on('success', function (e) {
+    setTooltip(e.trigger, 'Copied to Clipboard');
+    hideTooltip(e.trigger);
 });

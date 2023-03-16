@@ -73,7 +73,7 @@ include_once('includes/header.php');
         <div class="card-header d-flex justify-content-between align-items-center">
     <span class="decode-title">
     </span>
-    <button class="btn btn-dark copybtn2" data-clipboard-target=".decode-result"><img class="clippy" src="assets/clippy.svg" alt="Copy to clipboard" width="13"></button>
+    <button class="btn btn-dark copybtn" data-clipboard-target=".decode-result"><img class="clippy" src="assets/clippy.svg" alt="Copy to clipboard" width="13"></button>
     </div>
     <div class="card-body decode-result"></div>
 </div>
